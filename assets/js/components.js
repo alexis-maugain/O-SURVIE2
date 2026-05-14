@@ -50,7 +50,7 @@
       +   '<a href="' + paths.home + '" class="nav-brand"><strong>O\'</strong>SURVIE</a>'
       +   '<ul class="nav-links" id="navLinks">'
       +     '<li><a href="' + paths.home + '">Accueil</a></li>'
-      +     '<li><a href="' + paths.pages + 'association.html">L\'association</a></li>'
+      +     '<li><a href="' + paths.pages + 'a-propos.html">L\'association</a></li>'
       +     '<li><a href="' + paths.pages + 'planning.html">Événements</a></li>'
       +     '<li class="nav-dropdown">'
       +       '<button class="nav-dropdown-toggle" aria-expanded="false" aria-haspopup="true">S\'engager <span class="nav-chevron" aria-hidden="true"></span></button>'
