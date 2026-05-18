@@ -1100,12 +1100,16 @@ h2 {
   border: 1px solid rgba(106,78,62,0.1);
   list-style: none;
   margin: 0;
-  padding: 8px 0;
+  padding: 0px 0;
   width: max-content;
   z-index: 200;
 }
 
 .site-nav .nav-dropdown.open .nav-dropdown-menu {
+  display: block;
+}
+
+.site-nav .nav-dropdown-menu li {
   display: block;
 }
 
