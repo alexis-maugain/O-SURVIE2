@@ -64,6 +64,36 @@
     z-index: 1;
   }
 
+  /* ── HERO ROW — texte + affiche côte à côte ── */
+  .hero-row {
+    display: flex;
+    align-items: center;
+    gap: 56px;
+  }
+  .hero-text {
+    flex: 1 1 0;
+    min-width: 0;
+  }
+  .hero-image-wrap {
+    flex: 0 0 340px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .hero-affiche {
+    width: 100%;
+    max-width: 340px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 16px 48px -12px rgba(58,45,32,0.28);
+    display: block;
+  }
+  @media (max-width: 900px) {
+    .hero-row { flex-direction: column; gap: 32px; }
+    .hero-image-wrap { flex: 0 0 auto; width: 100%; }
+    .hero-affiche { max-width: 100%; }
+  }
+
   /* ── EYEBROW ── */
   .eyebrow {
     font-family: 'Courier New', Consolas, monospace;

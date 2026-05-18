@@ -1003,8 +1003,9 @@ h2 {
   line-height: 1;
 }
 
-.site-nav .nav-brand strong {
+.site-nav .nav-brand-o {
   color: var(--c-accent);
+  font-weight: 700;
 }
 
 /* Liste de liens — à gauche, juste après le brand */
@@ -1256,7 +1257,7 @@ body {
 /* Hero h1 : titre sur image sombre → blanc */
 #slide h1,
 #slide h1 span {
-  color: var(--c-white) !important;
+  color: var(--c-white);
   text-shadow: 0 2px 12px rgba(0,0,0,0.4);
 }
 

@@ -91,7 +91,7 @@
       min-height: 100px;
     }
 
-    button {
+    form button {
       margin-top: 25px;
       padding: 12px;
       background-color: var(--c-accent);

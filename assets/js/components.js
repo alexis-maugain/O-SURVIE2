@@ -47,7 +47,7 @@
   function buildNav(paths) {
     return ''
       + '<nav class="site-nav" id="siteNav" aria-label="Navigation principale">'
-      +   '<a href="' + paths.home + '" class="nav-brand"><strong>O\'</strong>SURVIE</a>'
+      +   '<a href="' + paths.home + '" class="nav-brand"><span class="nav-brand-o">O\'</span>SURVIE</a>'
       +   '<ul class="nav-links" id="navLinks">'
       +     '<li><a href="' + paths.home + '">Accueil</a></li>'
       +     '<li><a href="' + paths.pages + 'a-propos.html">L\'association</a></li>'
